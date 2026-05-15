@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe-Out | Innovación en Seguridad Doméstica</title>
+    <style>
+        :root { --verde: #4CAF50; --azul: #2c3e50; --blanco: #ffffff; --gris: #f4f4f4; }
+        body { font-family: sans-serif; margin: 0; background: var(--gris); color: #333; line-height: 1.6; }
+        
+        /* Cabecera */
+        header { background: var(--blanco); padding: 20px; text-align: center; border-bottom: 4px solid var(--verde); }
+        .logo { font-size: 24px; font-weight: bold; color: var(--azul); }
+        
+        /* Hero */
+        .hero { background: var(--azul); color: white; padding: 60px 20px; text-align: center; }
+        .hero h1 { margin: 0; font-size: 2.5em; }
+        
+        /* Contenedor principal */
+        .container { max-width: 1000px; margin: 20px auto; padding: 20px; }
+        
+        /* Tarjetas de Información */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .card h3 { color: var(--verde); margin-top: 0; }
+        
+        /* Tabla de Ayudas */
+        .seccion-ayudas { background: white; padding: 25px; border-radius: 10px; margin-top: 30px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+        th { background: var(--verde); color: white; }
+
+        /* Etiquetas de normativa */
+        .badges { text-align: center; margin-top: 40px; }
+        .badge { display: inline-block; background: #333; color: white; padding: 5px 12px; border-radius: 5px; margin: 5px; font-size: 12px; font-weight: bold; }
+        
+        footer { text-align: center; padding: 30px; background: #ddd; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">🛡️ SAFE-OUT</div>
+    </header>
+
+    <section class="hero">
+        <h1>Seguridad con un solo gesto</h1>
+        <p>Dispositivo inteligente para la prevención de accidentes domésticos.</p>
+    </section>
+
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <h3>IVA e Impuestos Reducidos</h3>
+                <p>Al ser una <strong>ayuda técnica</strong>, nuestro producto puede beneficiarse de:</p>
+                <ul>
+                    <li><strong>IVA del 10%:</strong> Para dispositivos que suplen deficiencias físicas.</li>
+                    <li><strong>IVA del 4%:</strong> Para usuarios con discapacidad ≥ 33%.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Ayudas y Subvenciones</h3>
+                <ul>
+                    <li><strong>95% ICIO:</strong> Por el uso de energías renovables en la instalación.</li>
+                    <li><strong>Vulnerabilidad Severa:</strong> La administración paga el 100% de la factura (Ayuntamiento como cliente directo).</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="seccion-ayudas">
+            <h3>Criterios de Ayuda (IPREM)</h3>
+            <p>Renta anual máxima para acceder a las subvenciones del Plan de Responsabilidad Social:</p>
+            <table>
+                <tr>
+                    <th>Unidad Familiar</th>
+                    <th>Renta Anual Máxima (Aprox.)</th>
+                </tr>
+                <tr>
+                    <td>Sin menores</td>
+                    <td>≤ 10.980 €</td>
+                </tr>
+                <tr>
+                    <td>Con 1 menor</td>
+                    <td>≤ 14.640 €</td>
+                </tr>
+                <tr>
+                    <td>Familias Numerosas</td>
+                    <td>Acceso Automático</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card" style="margin-top: 30px;">
+            <h3>Especificaciones Técnicas</h3>
+            <ul>
+                <li><strong>Dimensiones:</strong> 115mm x 90mm x 30mm.</li>
+                <li><strong>Materiales:</strong> Carcasa e interruptor de plástico ABC (Blanco Marfil / Negro).</li>
+                <li><strong>Seguridad:</strong> Zumbador de audio, vibración y LED de estado.</li>
+            </ul>
+        </div>
+
+        <div class="badges">
+            <span class="badge">CE</span>
+            <span class="badge">RoHS</span>
+            <span class="badge">WEEE / RAEEE</span>
+            <span class="badge">Doble Aislamiento</span>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Proyecto Safe-Out | Compromiso Social y Seguridad</p>
+    </footer>
+
+</body>
+</html>
